@@ -1,0 +1,17 @@
+.wrapper {
+  max-height: calc(100vh - 96px);
+  width: 100vw;
+  overflow-y: scroll;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 770px) {
+  .wrapper {
+    width: calc(100vw - 300px);
+  }
+}

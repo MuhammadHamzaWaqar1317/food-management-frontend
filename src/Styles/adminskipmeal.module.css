@@ -1,0 +1,50 @@
+.main {
+  width: calc(100vw - 300px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 141px);
+}
+
+.container {
+  max-width: 300px;
+  width: 100%;
+}
+
+.skipMeal {
+  text-align: center;
+  padding-bottom: 3vw;
+}
+
+.radioGrp {
+  font-weight: bold;
+  border-bottom: 1px solid #8686869f;
+}
+
+.datepicker {
+  width: 100%;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.text_inner {
+  font-weight: 600;
+}
+
+.meal_text {
+  color: #868686;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #58c9ec;
+}
+
+@media (max-width: 770px) {
+  .main {
+    width: 100vw;
+  }
+}

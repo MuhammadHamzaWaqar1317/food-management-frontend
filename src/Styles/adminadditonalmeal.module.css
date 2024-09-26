@@ -1,0 +1,49 @@
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 96px);
+}
+
+.container {
+  max-width: 300px;
+  width: 100%;
+}
+
+.H1Meal {
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 3vw;
+}
+
+.datepicker {
+  width: 100%;
+  border: 1px solid;
+}
+.text {
+  font-weight: bold;
+}
+.email {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.textArea {
+  border: 1px solid;
+}
+
+.belowTextArea {
+  margin: 0;
+  padding: 0;
+  color: #868686;
+}
+
+.btn {
+  background-color: #58c9ec;
+}
+
+.belowTextArea {
+  font-size: 12px;
+}

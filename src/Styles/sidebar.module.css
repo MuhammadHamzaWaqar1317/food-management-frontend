@@ -1,0 +1,67 @@
+.sider {
+  border-right: 1px solid #e8e8e8;
+}
+
+.AdminContainer {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innerAdminText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.adminName {
+  margin: 0;
+  padding: 0;
+}
+
+.adminText {
+  margin: 0;
+  padding: 0;
+  color: #a4a4a4;
+}
+
+.MenuWrapper {
+  margin-top: 2vw;
+}
+
+.ant-menu-item {
+  font-size: 88px;
+}
+
+.menuItem {
+  margin-bottom: 3vh !important;
+}
+
+@media (max-width: 770px) {
+  .sider {
+    display: none;
+  }
+}
+
+@media (min-width: 780px) {
+  .userSidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .userSidebar {
+    position: absolute;
+    background-color: white;
+    height: calc(100% - 96px);
+    z-index: 2;
+    width: 102vw;
+  }
+}

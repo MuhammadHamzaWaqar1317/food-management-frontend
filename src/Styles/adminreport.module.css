@@ -1,0 +1,116 @@
+/* .main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  width: 50%;
+  align-self: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.ant-input-search-button {
+  background-color: #1890ff !important;
+}
+ 
+.form {
+  display: flex !important;
+  justify-content: flex-start;
+
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding-top: 1vw;
+  padding-left: 2vw;
+  padding-bottom: 1vw;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.Datetext {
+  width: 80%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.selectText {
+  width: 7vw !important;
+}
+
+.btn {
+  width: 8vw !important;
+  margin-top: 1vh;
+}
+
+.btnFilterSubmit {
+  width: 8vw !important;
+  margin-top: 1vh;
+
+}
+
+.table {
+  margin-top: 2vw;
+}
+
+.footerForm {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e8e8e8;
+  height: 7vh;
+}
+
+.P {
+  background: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.footerbtn {
+  width: 7vw !important;
+} */
+
+/* .container {
+  width: calc(100vw - 300px);
+} */
+
+.main {
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.search {
+  margin-top: 20px;
+}
+
+.footer_Input_Field {
+  text-align: end;
+}
+
+@media (max-width: 640px) {
+  .tablereport {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 778px) {
+  .colWithPadding {
+    padding-left: 15px;
+  }
+  .offsetCol {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+/* .main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Cards {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 2vw;
+}
+
+.DashCard {
+  width: 85%;
+  border: 1px solid #eceef6;
+}
+
+.chart {
+  height: 60vh;
+  width: 100%;
+} */
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+.chart {
+  /* height: 60vh; */
+  width: 100%;
+  margin-bottom: 100px;
+}

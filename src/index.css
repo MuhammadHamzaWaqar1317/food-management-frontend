@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url("./assets/fonts/ProductSans/ProductSansThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("./assets/fonts/ProductSans/ProductSansLight.ttf") format("truetype");
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("./assets/fonts/ProductSans/ProductSansRegular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("./assets/fonts/ProductSans/ProductSansMedium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("./assets/fonts/ProductSans/ProductSansBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("./assets/fonts/ProductSans/ProductSansBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  font-family: "Product Sans", sans-serif !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.svgIcon {
+  font-size: 2em;
+}
+
+body {
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+
+.layout {
+  min-height: 100vh;
+  /* width: 100vw; */
+}
+
+.layout .main {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.menuItem {
+  margin-bottom: 1vw !important;
+}
+
+.ant-btn-primary {
+  background-color: #58c9ec !important;
+}
+
+.ant-btn-background-ghost {
+  background-color: white !important;
+}
+
+.ant-form-item-explain-error {
+  font-size: 12px;
+  font-weight: 700;
+  position: fixed;
+}
+
+.single-calendar-picker .ant-picker-panels {
+  display: flex;
+}
+
+.single-calendar-picker .ant-picker-panels > *:first-child {
+  flex: 1;
+}
+
+.single-calendar-picker .ant-picker-panels > *:last-child {
+  display: none;
+}
+
+.single-calendar-picker .ant-picker-header {
+  display: none;
+}
+
+.month-calendar-picker .ant-picker-header-view {
+  display: none;
+}
+
+.month-calendar-picker .ant-picker-header-super-prev-btn,
+.month-calendar-picker .ant-picker-header-super-next-btn {
+  display: none;
+}
+
+.kam {
+  /* padding-left: 4vw; */
+  display: flex;
+}
+
+.ham {
+  padding-left: 2vw;
+}

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  height: 96px;
+  /* width: 100vw; */
+  width: 100%;
+  border-bottom: 2px solid #58c9ec;
+  justify-content: flex-start;
+}
+
+.header_h1 {
+  padding-left: 4vw;
+  color: #58c9ec;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 770px) {
+  .menu {
+    display: block;
+    padding-left: 2vw;
+  }
+}
+
+@media (max-width: 330px) {
+  .header_h1 {
+    font-size: 31px;
+  }
+}
